@@ -10,14 +10,14 @@ if [ $# -eq 0 ]; then
         read -p "Enter Num2:  " num2
         fi
      while [ $num2 -eq 0 ]; do
-        read -p "Enter something thats not 0 bitch." num2
+        read -p "Enter something thats not 0." num2
     done
 
 
 
 go=0
 while [ $go ]; do
-    echo " enter what you what to do nigga"
+    echo " enter what you what opration you want to do?"
     echo " A) sum"
     echo " b) product" 
     echo " c) diffrence" 
@@ -50,7 +50,7 @@ echo "mod = $mod"
 [Ff])let power=$num1**$num2
 echo "power = $power"
 ;;
-*) echo "pick one of this option nig nog"
+*) echo "pick one of this option ubove"
 esac
 done
 
